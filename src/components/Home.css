@@ -1,0 +1,20 @@
+.home-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centrar texto */
+}
+
+.home-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px; /* Tamaño de letra aumentado */
+  font-family: 'Arial', sans-serif; /* Tipo de letra más llamativo */
+}
+
+.home-container p {
+  margin-bottom: 10px;
+  font-size: 16px; /* Tamaño de letra aumentado */
+  color: #666; /* Color de texto suavizado */
+}

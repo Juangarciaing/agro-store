@@ -1,0 +1,48 @@
+.sidebar {
+  height: 100%;
+  width: 60px; /* Ancho reducido */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  padding-top: 20px;
+  transition: width 0.3s ease;
+}
+
+.sidebar.active {
+  width: 250px; /* Ancho expandido */
+}
+
+.toggle-btn {
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px; /* Tamaño de letra reducido */
+  font-family: 'Arial', sans-serif; /* Tipo de letra más llamativo */
+  transition: 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  background-color: #555;
+}
+
+.sidebar ul li.active {
+  background-color: #555;
+}
